@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #011627;
+    background-color: #fdfffc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+/*
+PAGE ACCUEIL
+*/
+
+.page-accueil h1 {
+    background: darkblue;
+}
+/*
+PAGE CONTACT
+ */
+.page-contrat h1 {
+    background:darkblue ;
+}
+/*
+PAGE INFOS
+ */
+.page-infos h1 {
+    background: darkblue;
+}
