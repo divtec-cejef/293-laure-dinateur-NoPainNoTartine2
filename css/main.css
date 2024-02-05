@@ -42,7 +42,7 @@ PAGE ACCUEIL
 PAGE CONTACT
  */
 .page-contrat h1 {
-    background:darkblue ;
+    background: darkblue;
 }
 
 /*
@@ -95,4 +95,35 @@ PAGE INFOS
     font-style: italic;
     font-weight: 400;
     src: url('../fonts/changa-one-v20-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*
+Entête du site
+ */
+header {
+    background-color: #011627;
+    text-align: center;
+    padding: 5px 30px;
+}
+
+.personne {
+    font-size: 1.75rem;
+    line-height: 0.8;
+    color: #2ec4b6;
+    font-family: 'Changa One', sans-serif;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.métier {
+    margin-top: -5px;
+}
+
+/*
+Menu de navigation
+ */
+
+nav ul {
+    margin: 0;
+    padding: 0;
 }
