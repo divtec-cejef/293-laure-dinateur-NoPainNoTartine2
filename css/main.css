@@ -103,7 +103,8 @@ Entête du site
 header {
     background-color: #011627;
     text-align: center;
-    padding: 5px 30px;
+    padding: 5px;
+    border-bottom: 30px;
 }
 
 .personne {
@@ -122,8 +123,45 @@ header {
 /*
 Menu de navigation
  */
+nav {
+    padding: 10px 0 10px 0;
+    border-top: 20px;
+}
 
 nav ul {
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+
+/*
+page info
+ */
+.page-infos .photo {
+    max-width: 200px;
+    display: block;
+    margin: 2em auto;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+*:hover {
+    transition: color 500ms;
+    rotate: 360deg;
+    color: aquamarine;
+}
+
+.Laure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
