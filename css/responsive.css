@@ -3,17 +3,40 @@
         flex-grow: 3;
         flex-basis: 33%;
     }
+
     .page-infos .profile-photo {
         float: left;
         margin: 0 1em 1em 0;
     }
+
+    .page-infos .profile-photo {
+        display: flex;
+    }
+
+    .page-contact .container {
+
+    }
+
 }
 
 @media screen and (min-width: 660px) {
     header {
         border-bottom: 5px solid #2ec4b6;
-
+        display: flex;
     }
+}
+
+header > a {
+    width: 42%;
+    text-align: left;
+}
+
+header.personne {
+    font-size: 2.5rem;
+}
+
+header.graphiste {
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 910px) {
