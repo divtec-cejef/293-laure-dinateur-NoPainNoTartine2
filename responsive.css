@@ -1,0 +1,26 @@
+@media screen and (min-width: 480px) {
+    .page-accueil ul.realisation li {
+        flex-grow: 3;
+        flex-basis: 33%;
+    }
+    .page-infos .profile-photo {
+        float: left;
+        margin: 0 1em 1em 0;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    header {
+        border-bottom: 5px solid #2ec4b6;
+
+    }
+}
+
+@media screen and (min-width: 910px) {
+    main,
+    footer {
+        max-width: 910px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
